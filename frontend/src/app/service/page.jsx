@@ -39,11 +39,11 @@ const OurServices = () => {
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-300"
             />
-            <div className="absolute inset-0 bg-black/20 group-hover:bg-black/60 transition duration-300"></div>
-            <div className="absolute inset-0 flex flex-col justify-end p-6 text-white z-10">
+            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition duration-300"></div>
+            <div className="absolute inset-0 flex flex-col bg-black/30 justify-end p-6 text-white z-10">
               <p className="text-sm text-white/80 mb-1">Service:</p>
               <h3 className="text-2xl font-bold mb-1">{service.title}</h3>
-              <p className="text-sm text-white/80">{service.description}</p>
+              <p className="text-sm text-white/100">{service.description}</p>
             </div>
             <div className="absolute bottom-6 right-6 z-10">
               <div className="w-10 h-10 bg-white text-black rounded-full flex items-center justify-center text-xl group-hover:bg-gray-100 transition">

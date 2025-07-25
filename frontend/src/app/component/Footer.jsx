@@ -35,11 +35,11 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-4">Our Services</h4>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li><Link href="/services/7">Preventive Maintenance</Link></li>
-            <li><Link href="/services/7">Emergency Breakdown Support</Link></li>
-            <li><Link href="/services/1">CNC & Edgebander Machinery Repairs</Link></li>
-            <li><Link href="/services/6">Retrofit and Upgrades</Link></li>
-            <li><Link href="/services/6">Machinery Installation & Commissioning</Link></li>
+            <li><Link href="/service/7">Preventive Maintenance</Link></li>
+            <li><Link href="/service/7">Emergency Breakdown Support</Link></li>
+            <li><Link href="/service/1">CNC & Edgebander Machinery Repairs</Link></li>
+            <li><Link href="/service/6">Retrofit and Upgrades</Link></li>
+            <li><Link href="/service/6">Machinery Installation & Commissioning</Link></li>
           </ul>
         </div>
 

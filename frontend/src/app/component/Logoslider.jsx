@@ -6,7 +6,7 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 
-const logos = Array(50).fill('/Logo.jpg'); // Repeat logos as needed
+const logos = Array(50).fill('/Footerlogo.png'); // Repeat logos as needed
 
 export default function LogoSlider() {
   return (
