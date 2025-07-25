@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import services from './../../data/service';
 
 export default function ServiceDetail({ params }) {
@@ -56,9 +57,11 @@ export default function ServiceDetail({ params }) {
               {service.fullDescription}
             </p>
             <div className="mt-4">
-              <button className="bg-white text-[#b87c3e] px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-md hover:shadow-lg">
-                Get in Touch →
-              </button>
+              <Link href="/contact">
+    <button className="bg-white text-[#b87c3e] px-6 py-3 cursor-pointer rounded-lg font-semibold hover:bg-gray-100 transition-all duration-300 shadow-md hover:shadow-lg">
+      Get in Touch →
+    </button>
+  </Link>
 
 
 

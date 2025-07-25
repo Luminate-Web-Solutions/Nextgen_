@@ -23,11 +23,11 @@ export default function LogoSlider() {
         allowTouchMove={false}
         grabCursor={false}
         breakpoints={{
-          320: { slidesPerView: 2, spaceBetween: 20 },     // Small phones
-          480: { slidesPerView: 3, spaceBetween: 20 },     // Phones
-          768: { slidesPerView: 5, spaceBetween: 25 },     // Tablets
-          1024: { slidesPerView: 7, spaceBetween: 30 },    // Desktops
-          1280: { slidesPerView: 10, spaceBetween: 30 },   // Large screens
+          320: { slidesPerView: 2, spaceBetween: 20 },    
+          480: { slidesPerView: 3, spaceBetween: 20 },     
+          768: { slidesPerView: 5, spaceBetween: 25 },     
+          1024: { slidesPerView: 7, spaceBetween: 30 },    
+          1280: { slidesPerView: 10, spaceBetween: 30 },   
         }}
       >
         {logos.map((logo, index) => (
