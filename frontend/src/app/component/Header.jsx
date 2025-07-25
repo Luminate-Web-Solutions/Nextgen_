@@ -2,19 +2,19 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Menu, X } from 'lucide-react'; // optional icons for toggle
+import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-[#FFF2E4] shadow-sm px-6 py-4">
+    <header className="fixed top-0 left-0 w-full z-50 bg-[#FFF2E4]/80 backdrop-blur-sm shadow-sm px-6 py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo */}
-        <div className="flex items-center gap-2 text-lg font-bold text-black">
+        {/* Logo (Clickable) */}
+        <Link href="/" className="flex items-center gap-2 text-lg font-bold text-black">
           <img src="/Logo.jpg" alt="Logo" className="h-14 w-auto" />
           NEXTGEN DYNAMIX
-        </div>
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
